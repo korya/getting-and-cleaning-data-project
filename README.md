@@ -17,7 +17,7 @@ actual job:
 
 If you've a Samsung data available in the current directory, just run:
 
-```r
+```R
 source('./run_analysis.R')
 run.analysis() # invoke the actual function
 ```
@@ -26,7 +26,7 @@ Otherwise, you can use `download.data()` function provided in the script.
 The function will download the data archive and extract it.
 After that you can run `run.analysis()`. The full code:
 
-```r
+```R
 source('./run_analysis.R')
 download.data() # download samsung data and unzip it
 run.analysis() # invoke the actual function
@@ -35,7 +35,7 @@ run.analysis() # invoke the actual function
 If you don't want to use `download.data()`, you should download the samsung data
 manually, unzip it in the current directory and then run:
 
-```r
+```R
 source('./run_analysis.R')
 run.analysis() # invoke the actual function
 ```
